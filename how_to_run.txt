@@ -1,0 +1,3 @@
+#java -jar robotframework-seleniumlibrary-3.141.59.26535-jar-with-dependencies.jar -i ch src\test\*
+#mvn integration-test  
+#

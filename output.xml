@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_211)" generated="20200517 02:54:12.135">
+<suite name="Robotframework" id="s1">
+<suite source="D:\tmp\tempworkspace\javarobot\src\test\robotframework" name="Robotframework" id="s1-s1">
+<suite source="D:\tmp\tempworkspace\javarobot\src\test\robotframework\acceptance" name="Acceptance" id="s1-s1-s1">
+<suite source="D:\tmp\tempworkspace\javarobot\src\test\robotframework\acceptance\TestCase_1.robot" name="TestCase 1" id="s1-s1-s1-s1">
+<test name="01Check out joe colantonio dot com" id="s1-s1-s1-s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://testguild.com</arg>
+<arg>gc</arg>
+</arguments>
+<msg level="INFO" timestamp="20200517 02:54:24.518">browserName: gc</msg>
+<msg level="INFO" timestamp="20200517 02:54:24.519">Opening browser 'gc'</msg>
+<msg level="INFO" timestamp="20200517 02:54:24.524">Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 31120
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 17, 2020 2:54:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589676860.615][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676860.717][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676860.819][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.173][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.275][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.398][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.499][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.809][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676861.917][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.425][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.527][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.659][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676862.949][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.157][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.361][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.530][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676863.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676864.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676864.233][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676864.437][SEVERE]: Timed out receiving message from renderer: 0.100</msg>
+<status endtime="20200517 02:54:24.528" starttime="20200517 02:54:14.625" status="PASS"></status>
+</kw>
+<kw library="SeleniumLibrary" name="Close Browser">
+<doc>Closes the current browser instance.</doc>
+<status endtime="20200517 02:54:25.273" starttime="20200517 02:54:24.539" status="PASS"></status>
+</kw>
+<tags>
+<tag>ch</tag>
+</tags>
+<status critical="yes" endtime="20200517 02:54:25.273" starttime="20200517 02:54:14.616" status="PASS"></status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status endtime="20200517 02:54:25.278" starttime="20200517 02:54:12.383" status="PASS"></status>
+</suite>
+<status endtime="20200517 02:54:25.298" starttime="20200517 02:54:12.367" status="PASS"></status>
+</suite>
+<status endtime="20200517 02:54:25.308" starttime="20200517 02:54:12.352" status="PASS"></status>
+</suite>
+<status endtime="20200517 02:54:25.328" starttime="20200517 02:54:12.145" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">ch</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Robotframework" id="s1">Robotframework</stat>
+<stat pass="1" fail="0" name="Robotframework" id="s1-s1">Robotframework.Robotframework</stat>
+<stat pass="1" fail="0" name="Acceptance" id="s1-s1-s1">Robotframework.Robotframework.Acceptance</stat>
+<stat pass="1" fail="0" name="TestCase 1" id="s1-s1-s1-s1">Robotframework.Robotframework.Acceptance.TestCase 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

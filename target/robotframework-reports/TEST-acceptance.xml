@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" skipped="0" tests="2" name="Acceptance" time="22.220" errors="0">
+<testcase classname="Acceptance.TestCase 1" name="00Check out joe colantonio dot com" time="12.676">
+</testcase>
+<testcase classname="Acceptance.TestCase 1" name="01Check out joe colantonio dot com" time="8.769">
+</testcase>
+</testsuite>

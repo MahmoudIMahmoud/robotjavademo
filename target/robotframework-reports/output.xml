@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.2 (Jython 2.7.2 on java1.8.0_211)" generated="20200517 02:39:39.557">
+<suite source="D:\tmp\tempworkspace\javarobot\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="D:\tmp\tempworkspace\javarobot\src\test\robotframework\acceptance\TestCase_1.robot" name="TestCase 1" id="s1-s1">
+<test name="00Check out joe colantonio dot com" id="s1-s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://testguild.com</arg>
+<arg>ff</arg>
+</arguments>
+<msg level="INFO" timestamp="20200517 02:39:51.592">browserName: ff</msg>
+<msg level="INFO" timestamp="20200517 02:39:51.593">Opening browser 'ff'</msg>
+<msg level="INFO" timestamp="20200517 02:39:51.595">1589675981733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mahmoud\\AppData\\Local\\Temp\\rust_mozprofile.z26WXbDiVhR6"
+1589675982106	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589675982444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589675982444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589675982445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589675982445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589675984495	Marionette	INFO	Listening on port 57796
+1589675984867	Marionette	WARN	TLS certificate errors will be ignored for this session
+org.openqa.selenium.remote.ProtocolHandshake INFO Detected dialect: W3C</msg>
+<status endtime="20200517 02:39:51.622" starttime="20200517 02:39:40.291" status="PASS"></status>
+</kw>
+<kw library="SeleniumLibrary" name="Close Browser">
+<doc>Closes the current browser instance.</doc>
+<status endtime="20200517 02:39:52.957" starttime="20200517 02:39:51.624" status="PASS"></status>
+</kw>
+<tags>
+<tag>ff</tag>
+</tags>
+<status critical="yes" endtime="20200517 02:39:52.962" starttime="20200517 02:39:40.286" status="PASS"></status>
+</test>
+<test name="01Check out joe colantonio dot com" id="s1-s1-t2">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://testguild.com</arg>
+<arg>gc</arg>
+</arguments>
+<msg level="INFO" timestamp="20200517 02:40:01.001">browserName: gc</msg>
+<msg level="INFO" timestamp="20200517 02:40:01.001">Opening browser 'gc'</msg>
+<msg level="INFO" timestamp="20200517 02:40:01.003">Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 31622
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589675998.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675998.537][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675998.639][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675998.990][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675999.091][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675999.193][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675999.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675999.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589675999.940][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.041][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.143][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.244][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.495][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.597][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589676000.858][SEVERE]: Timed out receiving message from renderer: 0.100</msg>
+<status endtime="20200517 02:40:01.042" starttime="20200517 02:39:52.972" status="PASS"></status>
+</kw>
+<kw library="SeleniumLibrary" name="Close Browser">
+<doc>Closes the current browser instance.</doc>
+<status endtime="20200517 02:40:01.732" starttime="20200517 02:40:01.045" status="PASS"></status>
+</kw>
+<tags>
+<tag>ch</tag>
+</tags>
+<status critical="yes" endtime="20200517 02:40:01.736" starttime="20200517 02:39:52.967" status="PASS"></status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status endtime="20200517 02:40:01.755" starttime="20200517 02:39:39.903" status="PASS"></status>
+</suite>
+<status endtime="20200517 02:40:01.787" starttime="20200517 02:39:39.567" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">ch</stat>
+<stat pass="1" fail="0">ff</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="2" fail="0" name="TestCase 1" id="s1-s1">Acceptance.TestCase 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
